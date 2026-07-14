@@ -1,8 +1,10 @@
 body{
     margin:0;
     padding:0;
+
     background:white;
     color:#c9a227;
+
     font-family:Arial, Helvetica, sans-serif;
 
     display:flex;
@@ -12,6 +14,7 @@ body{
     height:100vh;
 }
 
+
 .container{
 
     width:420px;
@@ -19,13 +22,15 @@ body{
     padding:50px;
 
     border:1px solid #c9a227;
-    
+
     background:white;
 
     text-align:center;
 
-    box-shadow:0 0 25px rgba(0,0,0,.6);
+    box-shadow:0 0 25px rgba(201,162,39,.3);
 }
+
+
 
 h1{
 
@@ -36,12 +41,16 @@ h1{
     margin-bottom:10px;
 }
 
+
+
 .subtitle{
 
-    color:#aaa;
+    color:#8c6d1f;
 
     margin-bottom:35px;
 }
+
+
 
 input{
 
@@ -49,11 +58,11 @@ input{
 
     padding:15px;
 
-    background:#1d1d1d;
+    background:#fafafa;
 
-    border:1px solid #444;
+    border:1px solid #c9a227;
 
-    color:white;
+    color:#333;
 
     font-size:16px;
 
@@ -62,10 +71,15 @@ input{
     outline:none;
 }
 
+
+
 input:focus{
 
-    border:1px solid #5fc7ff;
+    border:1px solid #8c6d1f;
+
 }
+
+
 
 button{
 
@@ -88,10 +102,15 @@ button{
     transition:.2s;
 }
 
+
+
 button:hover{
 
-    background:#6dcaff;
+    background:#8c6d1f;
+
 }
+
+
 
 #message{
 
@@ -102,16 +121,25 @@ button:hover{
     height:20px;
 }
 
+
+
 .shake{
 
     animation:shake .3s;
 }
 
+
+
 @keyframes shake{
 
 0%{transform:translateX(0);}
+
 25%{transform:translateX(-6px);}
+
 50%{transform:translateX(6px);}
+
 75%{transform:translateX(-6px);}
+
 100%{transform:translateX(0);}
+
 }
